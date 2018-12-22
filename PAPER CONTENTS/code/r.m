@@ -1,0 +1,1 @@
+function [ans,anss] = r(y,pred)    ans=y-pred;    ans=ans.^2;    ans=sum(ans)    anss=y-mean(y);    anss=anss.^2;    anss=sum(anss); endfunction
